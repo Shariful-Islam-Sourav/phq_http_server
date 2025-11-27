@@ -1,0 +1,10 @@
+[SYSTEM LOG]
+TIMESTAMP: 2025-11-28
+STATUS: OK
+
+MESSAGE:
+This is a raw text file served with Content-Type: text/plain.
+The server reads this strictly as bytes and sends it over the socket.
+No HTML tags are processed here.
+
+END OF FILE.
