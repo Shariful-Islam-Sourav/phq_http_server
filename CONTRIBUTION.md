@@ -21,5 +21,6 @@
 * Wrote the MIME type detection (Text vs HTML).
 
 ### Fahad Md Mainuddin
+* Testing
 * Created the `public/` directory assets (`index.html`, `about.html`, `test.txt`).
 * Wrote `README.md` and verified the Makefile works.

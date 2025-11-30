@@ -65,7 +65,7 @@ def handle_client(client_socket):
         safe_path = path.lstrip('/')
         file_path = os.path.join(PUBLIC_DIR, safe_path)
 
-        # Check if file exists inside the public folder
+        # Checking if file exists inside the public folder
         if os.path.exists(file_path) and os.path.isfile(file_path):
             with open(file_path, 'rb') as f:
                 content = f.read()
@@ -123,7 +123,7 @@ def start_server():
         client_handler.start()
 
 if __name__ == "__main__":
-    # Ensure public directory exists
+    # Checking public dir exists
     if not os.path.exists(PUBLIC_DIR):
         print(f"Warning: '{PUBLIC_DIR}' folder missing. Creating it...")
         os.makedirs(PUBLIC_DIR)
